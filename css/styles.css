@@ -8,7 +8,8 @@
   --bg-button-portfolio: #f5f4fa;
   --futer-mail-tel: rgba(255, 255, 255, 0.6);
   --border-bottom: #ECECEC;
-  --border-portfolio: #EEEEEE
+  --border-portfolio: #EEEEEE;
+  --transition-cubic: cubic-bezier(0.4, 0, 0.2, 1);
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -136,6 +137,7 @@ padding-left: 50px;
 .link:hover,
 .link:focus {
   color: var(--accent-colour);
+
 }
 
 .site-nav .link.current {
@@ -278,9 +280,6 @@ background-size: 70px;
   justify-content: center;
   align-items: center;
   background-color: #F5F4FA;
-}
-.prefences-icon {
-  
 }
 
 
@@ -505,13 +504,13 @@ fill: #2196F3;
 
 .futer-mail a {
   margin-top: 9px;
-  color: var(--futer-mail-tel)
+  color: var(--futer-mail-tel);
   line-height: 1.71;
 }
 
 .futer-tel a {
   margin-top: 9px;
-  color: var(--futer-mail-tel)
+  color: var(--futer-mail-tel);
   line-height: 1.71;
 }
 .container.futer {
@@ -575,8 +574,6 @@ color: var(--white-text-colour);
 
 .close-btn-logo {
     position: absolute;
-    /* width: 18px;
-    height: 18px; */
     transition: fill 250ms var(--transition-cubic);
 }
 .modal {
@@ -588,7 +585,7 @@ color: var(--white-text-colour);
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1 );
+  transform: translate(-50%, -50%) scale(1);
   transition: transform 300ms;
 }
 .modal-close-btn {
