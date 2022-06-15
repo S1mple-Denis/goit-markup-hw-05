@@ -80,6 +80,7 @@ body {
 
 .logo:hover {
   color: var(--accent-colour);
+  transition: fill 250ms var(--transition-cubic);
 }
 
 ul {
@@ -137,7 +138,7 @@ padding-left: 50px;
 .link:hover,
 .link:focus {
   color: var(--accent-colour);
-
+  transition: fill 250ms var(--transition-cubic);
 }
 
 .site-nav .link.current {
@@ -213,6 +214,7 @@ padding-left: 50px;
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--bg-button-hover);
+  transition: fill 250ms var(--transition-cubic);
 }
 
 
@@ -409,9 +411,11 @@ img {
 .social-links-items:hover {
   background-color: #2196F3;
   fill: #fff;
+  transition: fill 250ms var(--transition-cubic);
 }
 .sl-logo:hover {
   fill: #fff;
+  transition: fill 250ms var(--transition-cubic);
 }
 
 /* Постоянные клиенты */
@@ -451,10 +455,12 @@ img {
 .clients-card:hover {
 border: 1px solid #2196F3;
 fill: #2196F3;
+transition: fill 250ms var(--transition-cubic);
 }
 
 .clients-logo:hover {
   fill: #2196F3;
+  transition: fill 250ms var(--transition-cubic);
 }
 
 /* футер */
@@ -488,6 +494,7 @@ fill: #2196F3;
 .futer .link:hover,
 .futer .link:focus {
   color: var(--accent-colour);
+  transition: fill 250ms var(--transition-cubic);
 }
 
 .futer a {
@@ -551,6 +558,7 @@ color: var(--white-text-colour);
 }
 .futer-slogan-item:hover {
   background-color: #2196F3;
+  transition: fill 250ms var(--transition-cubic);
 }
 .futer-slogan-link {
   fill: #fff;
@@ -574,7 +582,7 @@ color: var(--white-text-colour);
 
 .close-btn-logo {
     position: absolute;
-    transition: fill 250ms var(--transition-cubic);
+    /* transition: fill 250ms var(--transition-cubic); */
 }
 .modal {
   min-width: 528px;
@@ -652,6 +660,7 @@ color: var(--white-text-colour);
 .main-list button:focus {
   color: var(--white-text-colour);
   background-color: var(--accent-colour);
+  transition: fill 250ms var(--transition-cubic);
 }
 
 .main-list-projects {
@@ -692,6 +701,7 @@ a {
 .main-list-cards:focus .overlay {
   transform: translateY(0);
   background-color: rgba(33, 150, 243, 0.9);
+  transition: fill 250ms var(--transition-cubic);
 }
 
 .main-list-projects-items:nth-child(3n) {
@@ -706,11 +716,13 @@ margin-right: 0;
 .main-list-cards:focus {
   display: block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition: fill 250ms var(--transition-cubic);
 }
 
 .main-list-projects-items:hover,
 .main-list-projects-items:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition: fill 250ms var(--transition-cubic);
 }
 
 .main-project-naming {
